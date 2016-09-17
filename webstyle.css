@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	background:url(../images/aaa.jpg);
+}
+.header{
+	padding: 0 0 3px;
+	background: url(../images/aaa.jpg)  repeat-x center bottom;
+}
+.header div{
+	width: 1040px;
+	height: 238px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.header div a#logo{
+	width: 530px;
+	height: 138px;
+	text-align: center;
+	display: block;
+	margin: 93px auto 42px;
+}
+.header div ul{
+	list-style: none;
+	margin: 0;
+	padding: 0 12px;
+	overflow: hidden;
+}
+.header div ul li.selected{
+	background: url(../images/select.png) repeat-x;
+}
+.header div ul li{
+	text-align: center;
+	float: left;
+	width: 145px;
+	height: 58px;
+	margin: 0 0 0 42px;	
+}
+.header div ul li a:hover{
+	color: #FF8800;
+}
+.header div ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 30px;
+	margin: 13px 0 0;
+	text-transform: uppercase;
+	line-height: 36px;
+	outline: none;
+	display: block;
+}
+.content{
+	background: url(../images/content.jpg);
+}
+.content div{
+	width: 1040px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.content div ul:first-child{
+	padding: 20px 0 0;
+	margin: 0;
+}
+.content div ul{
+	list-style: none;
+	margin: 50px 0 0;
+	padding: 0 0 30px;
+	overflow: hidden;
+}
+.content div ul li{
+	float: left;
+	text-align: center;
+	margin: 0 0 0 20px;
+}
+.content div ul li a{
+	
+	font-family: times new roman;
+	font-size:30px;
+	color:#000000;
+	display:block;
+	text-decoration: none;
+	outline:none;
+	margin: 9px 0 0;
+}
+.content div h3{
+	font-family: "Lucida Grande",sans-serif;
+	margin: 0;
+	padding: 55px 0 0;
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.content div p{
+	font-family: "Lucida Grande",sans-serif;	
+	margin:0;
+	color: #000000;
+	font-size: 15px;
+	margin: 10px 0 0;
+	line-height: 40px;
+	text-align: justify;
+	letter-spacing: 2px;
+}
+.content div p a{
+	font-family: "Lucida Grande",sans-serif;
+	color:#000000;
+	font-size: inherit;
+	text-decoration: underline;
+	outline:none;
+}
+.content div div.contact p{
+	font-family: "Lucida Grande",sans-serif;
+	color: #000000;
+	font-size:15px;
+	line-height: 40px;
+	margin: 0;
+	text-align: justify;
+	padding: 35px 0 0;
+}
